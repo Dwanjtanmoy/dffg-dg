@@ -1,0 +1,35 @@
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+/* div{ 
+    height: 200px;
+    width: 200px;
+    background-image: url(../th\ \(1\).jpg);
+    background-color: rgb(248, 178, 1);
+    background-position: 40% 100%;
+    border-radius: 200px 200px 0px 0px;
+    background-repeat: no-repeat;*/
+  
+
+    .image-container{
+
+        height: 200px;
+        width: 200px;
+        background-image: url(../th\ \(1\).jpg);
+        background-color: rgb(248, 178, 1);
+        background-position: 40% 100%;
+        border-radius: 200px 200px 0px 0px;
+        background-repeat: no-repeat;
+        display: flex;
+        
+        align-items: center;
+        text-align: center;
+    }
+    .image-container img{
+        width: 100%;
+        flex-direction: column;
+    }
+    .image-title{
+        margin-top: 5px;
+    }
